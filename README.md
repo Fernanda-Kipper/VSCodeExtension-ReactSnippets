@@ -1,4 +1,7 @@
 # ReactJS - Code Snippets!
+
+<img src="./snippets.gif" width="600px">
+
 ## Table of Contents
 
 - [About](#About-this-project)
