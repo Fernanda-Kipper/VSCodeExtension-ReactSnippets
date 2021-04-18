@@ -1,0 +1,26 @@
+{
+    "Next getStaticProps declaration": {
+        "prefix": "!nssg",
+        "body": [       
+            "export const getStaticProps: GetStaticProps = async () => {",
+            "$0",
+            "   return {",
+            "      props: {},",
+            "    }",
+            "}"
+       ],
+       "description": "Declares a simple getStaticProps next function"
+   },
+   "Next getServerSideProps declaration": {
+    "prefix": "!nssr",
+    "body": [       
+        "export const getServerSideProps: GetServerSideProps = async () => {",
+        "$0",
+        "   return {",
+        "      props: {},",
+        "    }",
+        "}"
+   ],
+   "description": "Declares a simple getServerSideProps next function"
+    }
+}

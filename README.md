@@ -14,12 +14,13 @@
 
 ## About this project
 
-This project aims to help React JS developers by providing useful code snippets for those who are 
+This project aims to help React JS (and Next JS) developers by providing useful code snippets for those who are 
 tired of writing every day the same code structure 😴💻
 ## Usage
 
 This extension provides you some snippets that will gain some time for you. Including 
-**Function Components declaration** - with and without type - **Hooks** - including ContextAPI - and **Unit Test** structures.
+**Function Components declaration** - with and without type - **Hooks** - including ContextAPI - **Unit Test** structures 
+and **Next JS** SSR and SSG functions declarations.
 
 ### Supported Languages
 
@@ -42,6 +43,8 @@ when file extension is (.ts) or (.tsx)
 |                    `!tcr →` | Unit test structure that renders your component                              |
 |                  `!tcrcp →` | Unit test structure that renders your component with **Context Provider**    |
 |                  `!tcrrp →` | Unit test structure that renders your component with **Redux Provider**      |
+|                   `!nssg →` | Declares Next JS getStaticProps function                                     |
+|                   `!nssr →` |  Declares Next JS getServerSideProps function                                |
 
 ## License
 

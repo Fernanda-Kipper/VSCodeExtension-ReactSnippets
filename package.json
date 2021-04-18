@@ -1,6 +1,6 @@
 {
-    "name": "reactcodesnippets",
-    "displayName": "React Code Snippets",
+    "name": "reactdevsnippets",
+    "displayName": "React Dev Snippets",
     "description": "Simple snippets for React Js frontend developers",
     "version": "1.0.0",
     "publisher": "FernandaKipper",
@@ -56,6 +56,22 @@
             {
                 "language": "typescript",
                 "path": "./snippets/unitTest_snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/nextJS_snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/nextJS_snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/nextTS_snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/nextTS_snippets.code-snippets"
             }
         ]
     }
