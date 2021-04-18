@@ -1,65 +1,64 @@
-# reactdevsnippets README
+# ReactJS - Code Snippets!
+## Table of Contents
 
-This is the README for your extension "reactdevsnippets". After writing up a brief description, we recommend including the following sections.
+- [Sobre o Projeto](#About-this-project)
+- [Usage](#Usage)
+  - [Supported Languagens](#supported-languages)
+  - [Snippets](#snippets)
+- [License](#license)
+- [Contact](#contact)
 
-## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## About this project
 
-For example if there is an image subfolder under your extension project workspace:
+This project aims to help React JS developers who are tired of writing every day the same code structure 💻😴
 
-\!\[feature X\]\(images/feature-x.png\)
+## Usage
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+This extension provides you some snippets that will gain some time for you. Including **Function Components declaration** - with and without type - **Hooks** - including ContextAPI - and Unit Test structures.
 
-## Requirements
+### Supported Languages
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- JavaScript (.js)
+- TypeScript (.ts)
+- JavaScript React (.jsx)
+- TypeScript React (.tsx)
+### Snippets
 
-## Extension Settings
+📌The snippet result can differ while you are an Typescript ou Javascript file. Some snippets come with props declaration
+when file extension is (.ts) or (.tsx)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+|                    Shortcut | Result                                                                      |
+| -------------------------: | ----------------------------------------------------------------------------- |
+|                     `!ef →` | Creates an function component with simple export                                              |
+|                    `!edf →` | Creates a function component with default export                       |
+|                    `rsc →` | Cria um Componente **Stateless**                                              |
+|                   `rrsc →` | Cria um Componente **Stateless** conectado ao **Redux**                       |
+|                    `rfc →` | Cria um Componente **Functional**                                             |
+|                    `rft →` | Cria um Componente **Functional** em typescript                               |
+|           `styled-react →` | Cria um arquivo de Estilização com **Styled Components**                      |
+|                    `api →` | Cria um arquivo de configuração do Axios                                      |
+|        `mapstatetoprops →` | Cria o método `mapStateToProps` vazio                                         |
+|     `mapdispatchtoprops →` | Cria o método `mapDispatchToProps` vazio                                      |
+|     `create-store-react →` | Cria o arquivo de configuração do Redux, combinando os Ducks com os Sagas     |
+|           `root-reducer →` | Cria o arquivo que combina os Reducers                                        |
+|              `root-saga →` | Cria o arquivo que centraliza os Sagas                                        |
+|                   `duck →` | Cria um Duck                                                                  |
+|                 `rsduck →` | Cria um Duck com **Reduxsauce**                                               |
+|       `reactotron-react →` | Cria arquivo de configuração do **Reactotron**                                |
+| `reactotron-redux-react →` | Cria arquivo de configuração do **Reactotron** com **Redux** + **Redux Saga** |
+|                    `ctl →` | Adiciona um `console.tron.log`, para utilizadores do **Reactotron**           |
+|                    `ctw →` | Adiciona um `console.tron.warn`, para utilizadores do **Reactotron**          |
+|                    `cte →` | Adiciona um `console.tron.error`, para utilizadores do **Reactotron**         |
 
-For example:
+## License
 
-This extension contributes the following settings:
+Distributed under MIT License. See `LICENSE` to more information's.
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+## Contact
 
-## Known Issues
+Hi! If you have any doubt or suggestion, contact me 😉📲
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+https://github.com/Fernanda-Kipper - [Github](https://github.com/rocketseat) - **nanda.kipper@gmail.com**
 
 **Enjoy!**
