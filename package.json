@@ -3,6 +3,12 @@
     "displayName": "reactDevSnippets",
     "description": "Simple snippets for React Js frontend developers",
     "version": "1.0.0",
+    "publisher": "Fernanda Kipper",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Fernanda-Kipper/VSCodeExtension-ReactSnippets.git"
+    },
+    "icon": "icon.png",
     "engines": {
         "vscode": "^1.55.0"
     },
