@@ -3,20 +3,22 @@
         "prefix": "!ef",
         "body": [
             "export function ${1:ComponentName}(){",
-            "$0",
-            "return()",
+            "return(",
+            "<></>",
+            ")",
             "}"
         ],
         "description": "Export simple React function component"
     },
     "React function component export as default": {
-        "prefix": "!ef",
+        "prefix": "!edf",
         "body": [
             "export default function ${1:ComponentName}(){",
-            "$0",
-            "return()",
+            "return(",
+            "<></>",
+            ")",
             "}"
         ],
         "description": "Export default simple React function component"
-    },
+    }
 }

@@ -1,0 +1,30 @@
+{
+    "React function component export with types": {
+        "prefix": "!edf",
+        "body": [
+            "interface ${1:ComponentName}Props {",
+            "$0",
+            "}",
+            "export function ${1:ComponentName}(props : ${1:ComponentName}Props){",
+            "return(",
+            "<></>",
+            ")",
+            "}"
+        ],
+        "description": "Export typed React function component"
+    },
+    "React function component export default with types": {
+        "prefix": "!edf",
+        "body": [
+            "interface ${1:ComponentName}Props {",
+            "$0",
+            "}",
+            "export default function ${1:ComponentName}(props : ${1:ComponentName}Props){",
+            "return(",
+            "<></>",
+            ")",
+            "}"
+        ],
+        "description": "Export default typed React function component"
+    }
+}
