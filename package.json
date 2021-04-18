@@ -1,0 +1,20 @@
+{
+    "name": "reactdevsnippets",
+    "displayName": "reactDevSnippets",
+    "description": "Simple snippets for React Js frontend developers",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/functionComponent_snippets.code-snippets"
+            }
+        ]
+    }
+}
