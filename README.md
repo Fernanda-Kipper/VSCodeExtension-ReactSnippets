@@ -11,12 +11,12 @@
 
 ## About this project
 
-This project aims to help React JS developers providing useful code snippets for who are 
+This project aims to help React JS developers by providing useful code snippets for those who are 
 tired of writing every day the same code structure 😴💻
 ## Usage
 
 This extension provides you some snippets that will gain some time for you. Including 
-**Function Components declaration** - with and without type - **Hooks** - including ContextAPI - and Unit Test structures.
+**Function Components declaration** - with and without type - **Hooks** - including ContextAPI - and **Unit Test** structures.
 
 ### Supported Languages
 
@@ -26,7 +26,7 @@ This extension provides you some snippets that will gain some time for you. Incl
 - TypeScript React (.tsx)
 ### Snippets
 
-📌The snippet result can differ while you are an Typescript or Javascript file because some snippets come with props declaration
+📌The snippet result can differ depending whether you are in a Typescript or Javascript file because some snippets come with props declaration.
 when file extension is (.ts) or (.tsx)
 
 |                    Shortcut | Result                                                                       |
@@ -46,7 +46,7 @@ Distributed under MIT License. See `LICENSE` to more information's.
 
 ## Contact
 
-Hi! If you have any doubt or suggestion, fell free to contact me 😉📲
+If you have any doubt or suggestion, fell free to contact me 😉📲
 
 Fernanda Kipper - [Github](https://github.com/Fernanda-Kipper) - **nanda.kipper@gmail.com**
 
