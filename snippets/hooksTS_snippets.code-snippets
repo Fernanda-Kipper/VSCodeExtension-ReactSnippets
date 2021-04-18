@@ -1,0 +1,47 @@
+{
+    "React Context declaration": {
+        "prefix": "!rcd",
+        "body": [       
+            "import { createContext, ReactNode, useState  } from 'react'",
+            "$0",
+            "const ${1:ContextName} = createContext({",
+            "value:'',",
+            "setValue: ()=>{}",
+            "})",
+            "$0",
+            "interface ${1:ContextName}Props{",
+            "children: ReactNode",
+            "}",
+            "$0",
+            "export default function ${1:ContextName}Provider({ children }: ${ContextName}Props){",
+            "const [value, setValue] = useState()",
+            "return(",
+            "<${1:ContextName}.Provider value={{value,setValue}}>",
+            "{children}",
+            "</${1:ContextName}.Provider>",
+            "}"
+       ],
+       "description": "Declares a simple context and export its provider"
+   },
+   "React useEffect declaration": {
+    "prefix": "!rue",
+    "body": [       
+        "import { useEffect  } from 'react'",
+        "useEffect(()=> {",
+        "//TODO",
+        "return () => {",
+        "// TODO CLEANUP FUNCTION",
+        "}",
+        "},[//dependencyArray]}"
+   ],
+   "description": "Declares a simple useEffect with cleanup"
+    },
+    "React UseState declaration": {
+        "prefix": "!rus",
+        "body": [
+         "import { useState  } from 'react'",
+         "const [${1:StateName}, set${1:StateName}] = useState<Type>()"
+        ],
+        "description": "Declares a simple useState"
+    }
+}

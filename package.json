@@ -32,6 +32,30 @@
             {
                 "language": "typescriptreact",
                 "path": "./snippets/functionComponentsTS_snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/hooksJS_snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/hooksJS_snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/hooksTS_snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/hooksTS_snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/unitTest_snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/unitTest_snippets.code-snippets"
             }
         ]
     }
