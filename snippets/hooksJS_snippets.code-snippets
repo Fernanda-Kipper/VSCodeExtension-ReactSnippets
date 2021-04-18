@@ -4,16 +4,16 @@
         "body": [       
             "import { createContext, useState  } from 'react'",
             "const ${1:ContextName} = createContext({",
-            "value:'',",
-            "setValue: ()=>{}",
+            "   value:'',",
+            "   setValue: ()=>{}",
             "})",
             "export default function ${1:ContextName}Provider({ children }){",
-            "const [value, setValue] = useState()",
-            "return(",
-            "<${1:ContextName}.Provider value={{value,setValue}}>",
-            "{children}",
-            "</${1:ContextName}.Provider>",
-            "}"
+            "   const [value, setValue] = useState()",
+            "   return(",
+            "       <${1:ContextName}.Provider value={{value,setValue}}>",
+            "           {children}",
+            "       </${1:ContextName}.Provider>",
+            ")}"
        ],
        "description": "Declares a simple context and export its provider"
    },
@@ -22,11 +22,13 @@
         "body": [       
             "import { useEffect  } from 'react'",
             "useEffect(()=> {",
-            "//TODO",
-            "return () => {",
-            "// TODO CLEANUP FUNCTION",
-            "}",
-            "},[//dependencyArray]}"
+            "   //TODO",
+            "   return () => {",
+            "       // TODO CLEANUP FUNCTION",
+            "   }",
+            "},[",
+            "   //dependencyArray",
+            "])"
        ],
        "description": "Declares a simple useEffect with cleanup"
    },
