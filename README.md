@@ -1,6 +1,5 @@
-# ReactJS - Code Snippets!
-
-<img src="./snippets.gif" width="600px">
+<h1 align="center"><img align="center" src="./icon.png" width="200"></h1>
+<h1 align="center">React Snippets for VS Code!</h1>
 
 ## Table of Contents
 
@@ -16,6 +15,9 @@
 
 This project aims to help React JS developers by providing useful code snippets for those who are 
 tired of writing every day the same code structure 😴💻
+
+<h1 align="center"><img align="center" src="./snippets.gif" width="600"></h1>
+
 ## Usage
 
 This extension provides you some snippets that will gain some time for you. Including 
