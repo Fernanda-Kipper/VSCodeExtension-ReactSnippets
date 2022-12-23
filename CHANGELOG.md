@@ -2,18 +2,22 @@
 
 All notable changes to the "reactdevsnippets" extension will be documented in this file.
 
-## [1.0.0]
+## [1.0.4]
 
-- Initial release of React Dev Snippets
+- Adjust indentation of !ef snippets
 
-## [1.0.1]
+## [1.0.3]
 
-- Added Next SSG and SSR functions snippets
+- Added change log descriptions
 
 ## [1.0.2]
 
 - FIX: trouble with TS and TSX files with Function Components, shortcuts were not working
 
-## [1.0.3]
+## [1.0.1]
 
-- Added change log descriptions
+- Added Next SSG and SSR functions snippets
+
+## [1.0.0]
+
+- Initial release of React Dev Snippets

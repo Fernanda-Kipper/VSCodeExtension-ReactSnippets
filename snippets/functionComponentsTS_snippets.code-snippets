@@ -6,9 +6,9 @@
             "$0",
             "}",
             "export function ${1:ComponentName}(props : ${1:ComponentName}Props){",
-            "   return(",
-            "       <></>",
-            "   )",
+            "    return(",
+            "        <></>",
+            "    )",
             "}"
         ],
         "description": "Export typed React function component"
@@ -20,9 +20,9 @@
             "$0",
             "}",
             "export default function ${1:ComponentName}(props : ${1:ComponentName}Props){",
-            "   return(",
-            "       <></>",
-            "   )",
+            "    return(",
+            "        <></>",
+            "    )",
             "}"
         ],
         "description": "Export default typed React function component"

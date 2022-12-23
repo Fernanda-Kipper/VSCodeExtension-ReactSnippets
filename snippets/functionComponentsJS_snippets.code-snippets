@@ -3,9 +3,9 @@
         "prefix": "!ef",
         "body": [
             "export function ${1:ComponentName}(){",
-            "   return(",
-            "       <></>",
-            "   )",
+            "    return(",
+            "        <></>",
+            "    )",
             "}"
         ],
         "description": "Export simple React function component"
@@ -14,9 +14,9 @@
         "prefix": "!edf",
         "body": [
             "export default function ${1:ComponentName}(){",
-            "   return(",
-            "       <></>",
-            "   )",
+            "    return(",
+            "        <></>",
+            "    )",
             "}"
         ],
         "description": "Export default simple React function component"
